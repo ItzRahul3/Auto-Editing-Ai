@@ -1,0 +1,7 @@
+fastapi==0.115.6
+uvicorn==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.4
+psutil==6.1.1
+faster-whisper==1.1.1
+scenedetect[opencv]==0.6.4

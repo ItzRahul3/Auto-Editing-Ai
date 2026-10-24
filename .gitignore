@@ -1,0 +1,17 @@
+.venv/
+node_modules/
+.next/
+__pycache__/
+.env
+models/*
+media/uploads/*
+media/outputs/*
+media/temp/*
+media/thumbs/*
+projects/*
+!models/.gitkeep
+!media/uploads/.gitkeep
+!media/outputs/.gitkeep
+!media/temp/.gitkeep
+!media/thumbs/.gitkeep
+!projects/.gitkeep
