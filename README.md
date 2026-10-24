@@ -29,7 +29,6 @@ Transcription runs on **CPU** (int8). No ROCm/CUDA path is used. If your FFmpeg 
 Upload + FFprobe validation, thumbnails, scene detection (PySceneDetect) with enable/disable per scene, trim, silence removal, 9:16/16:9/1:1, time-varying zoom in/out, fades, speed (A/V synced), brightness/contrast/saturation, loudness normalize, noise reduction (afftdn), local Whisper transcription with word timestamps, subtitle editing, SRT import/export, ASS export, burned-in/karaoke subtitles, prompt→validated plan (LLM or rules), background render with real progress + cancel, output validation, projects (SQLite, versioned plan JSON, autosave, duplicate, delete with explicit source deletion), undo/redo, Model Manager, system info.
 
 ## Limitations / not implemented yet
-- Not run or tested anywhere; FFmpeg filter graph and `-/filter_complex` handling are unverified on your build.
 - No drag-based timeline (scene list + trim fields instead); no crossfade transitions, pan animation, background music mixing, browser voice recording, voice-as-instructions, VAD/source-separation options, or title cards.
 - Audio-only uploads are accepted but only video projects are editable.
 - Noise reduction is FFmpeg `afftdn`, not an AI model. Loudness normalization is single-pass.
